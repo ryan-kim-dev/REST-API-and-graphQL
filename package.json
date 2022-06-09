@@ -1,0 +1,17 @@
+{
+  "name": "rest-api-and-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryan-kim-dev/REST-API-and-graphQL.git",
+  "author": "ryan-kim-dev <ryankim.h.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
